@@ -1,0 +1,27 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 30px;
+}
+#bucket>div{
+    height: 430px;
+    border: 1px solid black;
+}
+#bucket>div>img{
+    height: 70%;
+    width: 100%;
+}
+#bucket>div p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bucket>div>button{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
